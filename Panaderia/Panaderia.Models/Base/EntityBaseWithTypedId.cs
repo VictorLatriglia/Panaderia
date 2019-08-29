@@ -1,12 +1,12 @@
-﻿using CreApps.Heimdall.Models.Base;
+﻿using Panaderia.Models;
 
-namespace CreApps.Heimdall.Models
+namespace Panaderia.Models
 {
     /// <summary>
     /// Base class for the implementation of models
     /// </summary>
     /// <typeparam name="Tid">Property that identified this Class</typeparam>
-    public abstract class EntityBaseWithTypedId<TId> : ValidatableObject, IEntityWithTypedId<TId>
+    public abstract class EntityBaseWithTypedId<TId> :  IEntityWithTypedId<TId>
     {
         /// <summary>
         /// property that identifies the class

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CreApps.Heimdall.Models
+namespace Panaderia.Models
 {
     /// <summary>
     /// Base class for the implementation of models

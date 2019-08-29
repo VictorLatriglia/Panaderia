@@ -1,6 +1,6 @@
-﻿using CreApps.Heimdall.Models;
+﻿using Panaderia.Models;
 
-namespace CreApps.Heimdall.DataAccess
+namespace Panaderia.DataAccess
 {
     /// <summary>
     /// Interface that holds the CRUD contracts

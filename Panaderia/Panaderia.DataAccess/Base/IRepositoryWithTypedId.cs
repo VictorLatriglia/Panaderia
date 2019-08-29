@@ -1,9 +1,9 @@
-﻿using CreApps.Heimdall.Models;
+﻿using Panaderia.Models;
 using Microsoft.EntityFrameworkCore.Storage;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CreApps.Heimdall.DataAccess
+namespace Panaderia.DataAccess
 {
     /// <summary>
     /// Interface with the CRUD contracts

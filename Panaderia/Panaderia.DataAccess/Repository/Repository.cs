@@ -1,8 +1,8 @@
 ﻿
-using CreApps.Heimdall.Models;
+using Panaderia.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace CreApps.Heimdall.DataAccess
+namespace Panaderia.DataAccess
 {
     /// <summary>
     /// Repository that implements the CRUD operations
@@ -12,7 +12,7 @@ namespace CreApps.Heimdall.DataAccess
     public class Repository<T, TId> : RepositoryWithTypedId<T, TId>, IRepository<T, TId>
       where T : class, IEntityWithTypedId<TId>
     {
-        public Repository(HeimdallDbContext context) : base(context)
+        public Repository(PanaderiaDbContext context) : base(context)
         {
 
         }

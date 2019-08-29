@@ -1,4 +1,4 @@
-﻿namespace CreApps.Heimdall.Models
+﻿namespace Panaderia.Models
 {
     /// <summary>
     /// Interface for all the entities
